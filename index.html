@@ -5,169 +5,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sovereign Roofing Solutions</title>
 
-<style>
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #0a0f1c;
-    color: #e5e7eb;
-  }
-
-  /* HERO */
-  .hero {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-    url('https://images.unsplash.com/photo-1503387762-592deb58ef4e') center/cover;
-    padding: 90px 20px;
-    text-align: center;
-  }
-
-  .hero img {
-    width: 120px;
-    border-radius: 12px;
-    margin-bottom: 15px;
-  }
-
-  .hero h1 {
-    font-size: 42px;
-    margin: 0;
-    color: #fbbf24;
-  }
-
-  .hero p {
-    color: #93c5fd;
-    font-style: italic;
-  }
-
-  nav {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    background: #111827;
-    padding: 12px;
-    position: sticky;
-    top: 0;
-  }
-
-  nav a {
-    color: white;
-    text-decoration: none;
-  }
-
-  section {
-    max-width: 1000px;
-    margin: auto;
-    padding: 60px 20px;
-  }
-
-  h2 {
-    color: #fbbf24;
-  }
-
-  .card {
-    background: #111827;
-    padding: 20px;
-    border-radius: 12px;
-    margin: 15px 0;
-    transition: 0.3s;
-  }
-
-  .card:hover {
-    transform: translateY(-5px);
-  }
-
-  /* GALLERY */
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 15px;
-  }
-
-  .gallery img {
-    width: 100%;
-    border-radius: 12px;
-    height: 200px;
-    object-fit: cover;
-  }
-
-  /* BUTTONS */
-  .btn {
-    display: inline-block;
-    padding: 10px 15px;
-    margin: 5px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-  .whatsapp { background: #22c55e; color: black; }
-  .email { background: #3b82f6; color: white; }
-
-  footer {
-    text-align: center;
-    padding: 20px;
-    background: #111827;
-    color: #9ca3af;
-  }
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-<div class="hero">
-  <!-- OPTIONAL LOGO -->
-  <img src="Logo.png" alt="Logo">
+<header class="hero fade-in">
   <h1>Sovereign Roofing Solutions</h1>
-  <p>Covering your needs every ridge and every pitch</p>
-</div>
+  <p>Covering your needs every ridge, every pitch</p>
+  <a href="contact.html" class="btn main-btn">Get a Free Quote</a>
+</header>
 
 <nav>
-  <a href="#about">About</a>
-  <a href="#mission">Mission</a>
-  <a href="#services">Services</a>
-  <a href="#gallery">Gallery</a>
-  <a href="#contact">Contact</a>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="contact.html">Contact</a>
 </nav>
 
-<section id="about">
-  <h2>About Us</h2>
-  <div class="card">
-    Family roofing company focused on strong workmanship, honesty, and long-term protection for every roof we touch.
-  </div>
-</section>
-
-<section id="mission">
-  <h2>Mission</h2>
-  <div class="card">
-    Build roofs that last. Build trust that stays.
-  </div>
-</section>
-
-<section id="services">
-  <h2>Services</h2>
-  <div class="card">Roof Repairs</div>
-  <div class="card">New Roof Installations</div>
-  <div class="card">Waterproofing</div>
-  <div class="card">Leak Fixing</div>
-  <div class="card">Maintenance</div>
-</section>
-
-<section id="gallery">
-  <h2>Our Work</h2>
-  <div class="gallery">
-    <img src="https://images.unsplash.com/photo-1523413651479-597eb2da0ad6">
-    <img src="https://images.unsplash.com/photo-1581091870622-1e7d5c7d8c8f">
-    <img src="https://images.unsplash.com/photo-1590725140246-20acdee442be">
-  </div>
-</section>
-
-<section id="contact">
-  <h2>Contact</h2>
-  <div class="card">
-    <p>Get a quote today.</p>
-
-    <a class="btn whatsapp" href="https://wa.me/27726745020">WhatsApp</a>
-    <a class="btn email" href="mailto:sovereignroofingsolutions@gmail.com">Email</a>
-  </div>
+<section class="fade-in">
+  <h2>Welcome</h2>
+  <p>Reliable, professional roofing solutions built to last.</p>
 </section>
 
 <footer>
