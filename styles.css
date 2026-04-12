@@ -5,7 +5,7 @@ body {
 
   background: 
     linear-gradient(rgba(10,15,28,0.9), rgba(10,15,28,0.95)),
-    url('https://images.unsplash.com/photo-1503387762-592deb58ef4e') center/cover no-repeat fixed;
+    url('Logo.png') center/cover no-repeat fixed;
 }
 
 /* HERO */
